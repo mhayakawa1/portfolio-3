@@ -11062,10 +11062,10 @@ textarea.form-control-lg {
   transform: rotate(30deg);
 }
 
-.portfolio {
+.projects {
   padding: 4rem 0;
 }
-.portfolio button {
+.projects button {
   text-transform: capitalize;
 }
 
