@@ -11118,6 +11118,7 @@ textarea.form-control-lg {
 
 .proj-thumbnail{
   object-fit: cover;
+  object-position: 30%; 
   max-width: auto;
   height: 18.5rem;
 }
