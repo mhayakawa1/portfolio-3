@@ -10829,7 +10829,7 @@ textarea.form-control-lg {
   height: 0.1rem;
   display: block;
   margin: 0 auto;
-  background-color: #EB2C5D;
+  background-color: #F8C93C;
 }
 
 .heading-line::after {
@@ -10840,7 +10840,7 @@ textarea.form-control-lg {
   display: block;
   margin: 0 auto;
   margin-bottom: 1rem;
-  background-color: #EB2C5D;
+  background-color: #F8C93C;
 }
 
 .display-3 {
@@ -10863,22 +10863,20 @@ textarea.form-control-lg {
 .display-3--title {
   /*font-size: 1.2rem;
   text-transform: capitalize;*/
+  color: white !important;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   display: inline-block;
-  background-image: linear-gradient(290deg, #EB2C5D, #FC6840, #F8C93C);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  /*background-image: linear-gradient(290deg, #EB2C5D, #FC6840, #F8C93C);*/
 }
 
 /*.display-3--title-link{
   margin: 0 0 2px 0;
-}*/
+}
 
 .display-3--title-link:hover{
   background-image: linear-gradient(black, black);
-}
+}*/
 
 @media (min-width: 992px) {
   .display-3--title {
@@ -10889,6 +10887,7 @@ textarea.form-control-lg {
 .border-right {
   border-right: 0;
 }
+
 @media (min-width: 576px) {
   .border-right {
     border-right: 0.1rem solid #dee2e6;
@@ -10976,7 +10975,7 @@ textarea.form-control-lg {
 
 .about {
   position: relative;
-  padding: 1rem 0 8rem 0;
+  padding: 1rem 0 0 0;
 }
 .about__content {
   padding: 1rem;
@@ -11015,23 +11014,18 @@ textarea.form-control-lg {
   filter: brightness(0%);
 }
 
-/*
-.experience1{
-  height: 100% !important;
-  margin: 0;
-}
-.experience-line{
-  width: 1px !important;
-  height: 100px;
-  background: gray;
-}
-.experience-link{
-  display: static;
+.experience{
+  background: linear-gradient(290deg, #EB2C5D, #FC6840, #F8C93C);
 }
 
-.experience-link:hover {
-  text-decoration: underline;
-}*/
+.experience-link{
+  color: white;
+}
+
+.experience-link:hover{
+  color: #F8C93C;
+}
+
 .bi-arrow-up-right{
   margin: 0 0 6px 0;
 }
@@ -11057,7 +11051,7 @@ textarea.form-control-lg {
 .skills {
   position: relative;
   padding: 0;
-  background: linear-gradient(290deg, #EB2C5D, #FC6840, #F8C93C);
+  /*background: linear-gradient(290deg, #EB2C5D, #FC6840, #F8C93C);*/
 }
 .skills__card {
   background-color: rgba(255, 255, 255, 0.8);
@@ -11113,6 +11107,11 @@ textarea.form-control-lg {
   color: #EB2C5D !important;
   /*filter: invert(26%) sepia(91%) saturate(2965%) hue-rotate(329deg) brightness(95%) contrast(93%);
   */justify-self: center;
+}
+
+.skill-icon{
+  width: 8rem;
+  filter: invert(26%) sepia(91%) saturate(2965%) hue-rotate(329deg) brightness(95%) contrast(93%);
 }
 
 .lang-name{
