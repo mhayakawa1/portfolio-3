@@ -11050,20 +11050,18 @@ textarea.form-control-lg {
 
 .skills {
   position: relative;
-  padding: 0;
-  /*background: linear-gradient(290deg, #EB2C5D, #FC6840, #F8C93C);*/
+  padding: 0 0 4rem 0;
 }
+
 .skills__card {
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 2rem 2.5rem 2rem 2.5rem;
-  border-radius: 0.625rem;
+  padding: 2rem auto 2rem auto;
   height: auto;
   text-align: center;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
-  margin: 2rem auto 0 auto;
-  
+  margin: 1rem auto 0 auto;
+  gap: 5%;
 }
 .skills__card i {
   font-size: 1.5rem;
@@ -11099,19 +11097,20 @@ textarea.form-control-lg {
 
 .skills-item{
   min-width: 8rem;
+  margin: 0 0 1rem 0;
 }
 
 .lang-thumbnail{
   font-size: 8rem !important;
   margin: 1rem 0 .5rem 0;
   color: #EB2C5D !important;
-  /*filter: invert(26%) sepia(91%) saturate(2965%) hue-rotate(329deg) brightness(95%) contrast(93%);
-  */justify-self: center;
+  justify-self: center;
 }
 
 .skill-icon{
   width: 8rem;
   filter: invert(26%) sepia(91%) saturate(2965%) hue-rotate(329deg) brightness(95%) contrast(93%);
+  justify-self: center;
 }
 
 .lang-name{
@@ -11124,7 +11123,7 @@ textarea.form-control-lg {
 }
 
 .projects {
-  padding: 4rem 0;
+  padding: 4rem 1.5rem 0 1.5rem;
 }
 .projects button {
   text-transform: capitalize;
