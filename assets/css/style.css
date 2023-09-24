@@ -11054,12 +11054,10 @@ textarea.form-control-lg {
 
 @media (max-width: 575.98px){
   .exp-list .p-4{
-    border: 1px solid black;
     padding: 0 !important;
   }
 
   .exp-list ul{
-    border: 1px solid black;
     margin: 0;
     width: 100%;
     padding: 0;
@@ -11173,12 +11171,17 @@ textarea.form-control-lg {
   text-transform: capitalize;
 }
 
+.portfolio-box-container{
+  /*border: 1px solid black;*/
+}
+
 .portfolio-box {
   position: relative;
   width: 100%;
-  height: 18.5rem;
+  max-height: 85%;
+  /*height: 85%;
+  margin-bottom: 15%;*/
   overflow: hidden;
-  margin-bottom: 1.2rem;
   border-top: 0.5rem solid;
   border-image: linear-gradient(290deg, #EB2C5D, #FC6840, #F8C93C) 1 0 0 0;
 }
@@ -11219,10 +11222,18 @@ textarea.form-control-lg {
   transition-property: all;
 }
 
+@media (max-width: 767.98px) {
+  .portfolio-box{
+    /*height: 75%;
+    margin-bottom: 25%;*/
+    max-height: 25rem;
+    height: auto;
+    margin-bottom: 5%;
+  }
+}
+
 @media (max-width: 575.98px){
   .portfolio-box{
-    max-height: 14rem;
-    height: auto;
   }
   .portfolio-box .portfolio-info {
     background-color: #281C65;
