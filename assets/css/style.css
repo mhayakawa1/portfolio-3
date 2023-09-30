@@ -11173,14 +11173,13 @@ textarea.form-control-lg {
 
 .portfolio-box-container{
   /*border: 1px solid black;*/
+  margin-bottom: 2rem;
 }
 
 .portfolio-box {
   position: relative;
   width: 100%;
-  max-height: 85%;
-  /*height: 85%;
-  margin-bottom: 15%;*/
+  height: 100%;
   overflow: hidden;
   border-top: 0.5rem solid;
   border-image: linear-gradient(290deg, #EB2C5D, #FC6840, #F8C93C) 1 0 0 0;
