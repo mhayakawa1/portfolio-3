@@ -10987,6 +10987,10 @@ textarea.form-control-lg {
   filter: grayscale(120);
 }
 
+.wave-shape{
+  margin: 0 0 -1px 0;
+}
+
 .about {
   position: relative;
   padding: 1rem 0 0 0;
@@ -11232,8 +11236,6 @@ textarea.form-control-lg {
 }
 
 @media (max-width: 575.98px){
-  .portfolio-box{
-  }
   .portfolio-box .portfolio-info {
     background-color: #281C65;
     width: 100%;
