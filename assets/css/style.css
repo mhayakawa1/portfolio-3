@@ -11201,13 +11201,17 @@ textarea.form-control-lg {
   left: 0;
   opacity: 0;
   visibility: hidden;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .portfolio-box .portfolio-info .caption {
   text-align: center;
   color: #fff;
   position: absolute;
   width: 80%;
-  margin: 10% 10% auto 10%;
 }
 .portfolio-box .portfolio-info .caption h4 {
   text-transform: uppercase;
