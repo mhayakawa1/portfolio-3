@@ -11176,7 +11176,6 @@ textarea.form-control-lg {
 }
 
 .portfolio-box-container{
-  /*border: 1px solid black;*/
   margin-bottom: 2rem;
 }
 
@@ -11231,8 +11230,6 @@ textarea.form-control-lg {
 
 @media (max-width: 767.98px) {
   .portfolio-box{
-    /*height: 75%;
-    margin-bottom: 25%;*/
     max-height: 25rem;
     height: auto;
     margin-bottom: 5%;
@@ -11257,6 +11254,20 @@ textarea.form-control-lg {
     width: 80%;
     margin: 5% 10% auto 10%;
   }
+}
+
+@media (max-width: 375px){
+  .portfolio-box img{
+    height: auto;
+    aspect-ratio: 1 / .75;
+  }
+
+  .portfolio-box .portfolio-info .caption{
+    border: 1px solid green;
+    width: 90%;
+    margin: auto;
+  }
+
 }
 
 .proj-thumbnail{
