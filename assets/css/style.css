@@ -11461,38 +11461,14 @@ textarea.form-control-lg {
 #sm-text{
   align-self: center;
 }
-/*
-.sm-links{
-  background-color: grey;
-  justify-self: center;
-  display: grid;
-  width: 18rem;
-  height: 3rem;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 2rem 1rem;
-  gap: 0px;
-  margin: 0 0 1rem 0;
-}
 
-@media(max-width: 1000px){
-  .sm-links{
-    justify-self: center;
-    align-self: center;
-    margin: 0 20% 0 20%;
-  }
-}
-
-.link-item{
-  justify-self: center;
-  align-self: center;
-}*/
 .sm-links{
   justify-self: center;
-  display: grid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 18rem;
   height: 4rem;
-  grid-template-columns: 6rem 6rem 6rem;
-  grid-template-rows: 2rem 1rem;
   gap: 0px;
   padding: 0;
 }
